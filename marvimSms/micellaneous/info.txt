@@ -1,0 +1,3 @@
+THis works
+
+https://qawithexperts.com/article/javascript/read-csv-file-in-javascript-and-html5-filereader-multiple-wa/238

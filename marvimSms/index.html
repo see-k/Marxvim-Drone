@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title> Marxvim 5G </title>
+    <link href="styles/marxvimSms.css" rel="stylesheet">
+  </head>
+
+  <body style="background-color:#2F2F31;">
+    <h1>
+      Marxvim 5G 
+    </h1>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="source">Referral Source</label>
+        <select id="source" name="source">
+          <option>Google</option>
+          <option>Bing</option>
+          <option>Mail</option>
+          <option>Conference</option>
+          <option>Customer Referral</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <div class="submit-row">
+        <button>Submit</button>
+      </div>
+    </form>
+    <script src="scripts\marxvimSms.js"></script>
+  </body>
+
+</html>
